@@ -1,0 +1,125 @@
+.bg--theme,
+.shape--blue-400:after { 
+  background-color: #932d6f; 
+}
+
+.bg--theme-secondary { 
+  background-color: #dca0c8; 
+}
+
+.bg--theme-orange { 
+  background-color: #c4532f; 
+}
+
+.btn--theme {
+  color: #fff!important;
+  border-color: #932d6f!important;
+  background-color: #932d6f!important;
+}
+
+.btn--theme-secondary {
+  color: #fff!important;
+  border-color: #dca0c8!important;
+  background-color: #dca0c8!important;
+}
+
+.btn--theme-orange {
+  color: #fff!important;
+  border-color: #c4532f!important;
+  background-color: #c4532f!important;
+}
+
+.hover--theme:hover,
+.white-scroll .scroll .hover--theme:hover,
+.black-scroll .scroll .hover--theme:hover {
+  color: #fff!important;
+  border-color: #b3338a!important;
+  background-color: #b3338a!important;
+}
+
+.theme--dark .white-scroll .scroll .hover--theme:hover {
+  color: #fff!important;
+  border-color: #b3338a!important;
+  background-color: #b3338a!important;
+}
+
+.theme--dark .white-scroll .hover--theme:hover {
+  color: #fff!important;
+  border-color: #b3338a!important;
+  background-color: #b3338a!important;
+}
+
+.color--theme, 
+.color--theme h1, 
+.color--theme h2, 
+.color--theme h3, 
+.color--theme h4, 
+.color--theme h5, 
+.color--theme h6, 
+.color--theme p, 
+.color--theme a, 
+.color--theme li, 
+.color--theme i, 
+.color--theme span,
+.color--white .color--theme { color: #932d6f!important; }
+
+.loading--theme .loader { 
+  border-color: transparent #932d6f; 
+}
+
+.loading--theme .loader::after {
+  border-color: transparent rgba(190, 108, 190, .15); 
+}
+
+.nav-theme .sm-info { 
+  background-color: #932d6f; 
+}
+
+.wsmenu > .wsmenu-list.nav-theme > li > ul.sub-menu > li > a:hover,
+.wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.w-75 ul.link-list > li > a:hover,
+.wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.halfmenu ul.link-list > li > a:hover {
+  color: #932d6f!important;
+}
+
+.hero-section .quick-form .form-control:focus {
+  border-color: #932d6f;
+}
+
+.cbox-2:hover .cbox-2-ico.bg--theme { 
+  color: #932d6f; 
+  border-color: #932d6f; 
+}
+
+.tabs-1.tabs--theme, 
+.tabs-1.tabs--theme li.current:hover { 
+  color: #932d6f; 
+  border-color: #932d6f; 
+}
+
+.faqs-section .tabs--theme .tabs-1 li.current,
+.faqs-section .tabs--theme .tabs-1 li.current:hover {
+  background-color: #932d6f;
+  border-color: #932d6f!important;
+}
+
+.switch-wrap input:checked + .switcher.switcher--theme { 
+  background-color: #932d6f; 
+  border-color: #932d6f; 
+}
+
+.shape-ico.color--theme path,
+.shape-ico.color--theme path,
+.shape-ico.color--theme path {
+  fill: #f7e4f1;
+}
+
+.newsletter-section .form-control:focus {
+  background-color: #fff;
+  border-color: #353f4f;
+}
+
+.theme-pagination .page-item.active .page-link {
+  color: #fff!important;
+  background-color: #932d6f;
+  border: 2px solid #932d6f;
+}
