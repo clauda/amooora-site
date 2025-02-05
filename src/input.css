@@ -1368,7 +1368,7 @@ hr {
     @apply sm:mb-[40px]
   }
   .wsmenu > .wsmenu-list > li > a {
-    @apply text-[1rem] leading-[50px] font-semibold tracking-[0] no-underline m-[0_7px] p-[10px_15px] font-Jakarta block xl:text-[0.9375rem] lg:mx-[5px] lg:my-0 lg:px-[15px] lg:py-[10px] md:text-[1.25rem]  md:leading-[46px]  md:m-0  md:pl-[20px]  md:pr-8  md:pt-[5px]  md:pb-1 sm:m-0 sm:pl-[20px] sm:pr-8 sm:pt-[5px] sm:pb-1 xsm:m-0 xsm:pl-[20px] xsm:pr-8 xsm:pt-[5px] xsm:pb-1
+    @apply text-[1rem] leading-[50px] font-normal tracking-[0] no-underline m-[0_7px] p-[10px_15px] block xl:text-[0.75rem] lg:mx-[5px] lg:my-0 lg:px-[15px] lg:py-[10px] md:text-[1.25rem]  md:leading-[46px]  md:m-0  md:pl-[20px]  md:pr-8  md:pt-[5px]  md:pb-1 sm:m-0 sm:pl-[20px] sm:pr-8 sm:pt-[5px] sm:pb-1 xsm:m-0 xsm:pl-[20px] xsm:pr-8 xsm:pt-[5px] xsm:pb-1
   }
   .wsmenu > .wsmenu-list > li.reg-fst-link > a {
     @apply ml-[30px] md:ml-0
@@ -1377,7 +1377,10 @@ hr {
     @apply text-[#353f4f]
   }
   .navbar-light .wsmenu > .wsmenu-list > li > a.h-link {
-    @apply text-white
+    @apply md:text-white lg:text-white xl:text-white sm:text-[#353f4f] xsm:text-[#353f4f]
+  }
+  .navbar-light .scroll .wsmenu > .wsmenu-list > li > a.h-link {
+    @apply text-black
   }
   .wsmenu > .wsmenu-list > li > a.h-link.last-link {
     @apply m-0 px-0 py-[10px]
@@ -1386,7 +1389,7 @@ hr {
     @apply content-[""] float-right h-0 absolute text-right w-0 ml-[14px] border-t-4 border-x-4 border-x-[rgba(0,0,0,0)] border-solid right-0 top-[35px]
   }
   .wsmenu > .wsmenu-list > li a.btn {
-    @apply text-[1rem] leading-[30px] font-semibold normal-case tracking-[0] mt-[14px] px-7 py-1 xl:text-[0.9rem]  xl:leading-[28px]  xl:m-[14px_5px_0]  xl:p-[4px_22px_6px] lg:text-[0.9375rem] lg:leading-[28px] lg:mt-[15px] lg:pt-[3px] lg:pb-[5px] lg:px-[22px] md:text-[1.25rem]  md:leading-[44px]  md:mt-px  md:mb-[2px]  md:mx-0  md:px-[22px]  md:py-[5px]  md:!rounded-none  md:border-2
+    @apply text-[1rem] leading-[30px] normal-case tracking-[0] mt-[14px] px-7 py-1 xl:text-[0.75rem]  xl:leading-[28px]  xl:m-[14px_5px_0]  xl:p-[4px_22px_6px] lg:text-[0.9375rem] lg:leading-[28px] lg:mt-[15px] lg:pt-[3px] lg:pb-[5px] lg:px-[22px] md:text-[1.25rem]  md:leading-[44px]  md:mt-px  md:mb-[2px]  md:mx-0  md:px-[22px]  md:py-[5px]  md:!rounded-none  md:border-2
   }
   .wsmenu > .wsmenu-list > li a.btn.reg-btn {
     @apply px-[22px] py-1 xl:pt-1  xl:pb-[6px]  xl:px-[20px] lg:pt-[3px] lg:pb-[5px] lg:px-[20px] md:leading-[44px]  md:px-[22px]  md:py-[5px];

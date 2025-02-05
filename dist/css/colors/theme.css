@@ -11,6 +11,10 @@
   background-color: #c4532f; 
 }
 
+.bg--theme-orange-light { 
+  background-color: #d6866d; 
+}
+
 .btn--theme {
   color: #fff!important;
   border-color: #932d6f!important;

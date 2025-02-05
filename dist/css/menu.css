@@ -69,7 +69,7 @@
 .wsmainfull {
   width: 100%;
   height: auto;
-  background-color: #fff!important;
+  /* background-color: #fff!important; */
   z-index: 999;
   -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
   -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
@@ -156,7 +156,7 @@
 }
 
 .white-menu .wsmenu > .wsmenu-list > li > a {
-  color: #444;
+  /* color: #444; */
 }
 
 .tra-menu .wsmenu.dark-txt > .wsmenu-list > li > a {
